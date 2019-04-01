@@ -7,7 +7,8 @@
 
 ## Movie Detail
 ![Example screenshot](./img/detail-1.png)
-![Example screenshot](./img/detail-2.png)
+
+![Example screenshot](./img/detail-2.jpg)
 
 ## Watchlist
 ![Example screenshot](./img/watchlist.png)

@@ -12,15 +12,15 @@ self.__precacheManifest = [
     "url": "/ReactMovie/static/js/runtime~main.8ef7d706.js"
   },
   {
-    "revision": "7ddcc3ca1dab00493938",
-    "url": "/ReactMovie/static/js/main.77e65f5c.chunk.js"
+    "revision": "f1d63f73fb2bce3d26b6",
+    "url": "/ReactMovie/static/js/main.317a87cd.chunk.js"
   },
   {
     "revision": "eac998d01246161c22cf",
     "url": "/ReactMovie/static/js/2.5120125b.chunk.js"
   },
   {
-    "revision": "7ddcc3ca1dab00493938",
+    "revision": "f1d63f73fb2bce3d26b6",
     "url": "/ReactMovie/static/css/main.7d31920c.chunk.css"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/ReactMovie/static/css/2.00ee7ccc.chunk.css"
   },
   {
-    "revision": "62da4ebbc36e49e529d18bc0ea1471cf",
+    "revision": "a9e9927711dfe918769a7c0b77aac1b7",
     "url": "/ReactMovie/index.html"
   }
 ];

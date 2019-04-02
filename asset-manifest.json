@@ -1,5 +1,5 @@
 {
-  "main.css": "/ReactMovie/static/css/main.8bb62f59.chunk.css",
+  "main.css": "/ReactMovie/static/css/main.caa5c512.chunk.css",
   "main.js": "/ReactMovie/static/js/main.eb21a7a5.chunk.js",
   "main.js.map": "/ReactMovie/static/js/main.eb21a7a5.chunk.js.map",
   "runtime~main.js": "/ReactMovie/static/js/runtime~main.8ef7d706.js",
@@ -8,10 +8,11 @@
   "static/js/2.5120125b.chunk.js": "/ReactMovie/static/js/2.5120125b.chunk.js",
   "static/js/2.5120125b.chunk.js.map": "/ReactMovie/static/js/2.5120125b.chunk.js.map",
   "index.html": "/ReactMovie/index.html",
-  "precache-manifest.2fc25875801388649b895eaa72d4153b.js": "/ReactMovie/precache-manifest.2fc25875801388649b895eaa72d4153b.js",
+  "precache-manifest.89cc26af537d6a292782094464e3a0d3.js": "/ReactMovie/precache-manifest.89cc26af537d6a292782094464e3a0d3.js",
   "service-worker.js": "/ReactMovie/service-worker.js",
   "static/css/2.00ee7ccc.chunk.css.map": "/ReactMovie/static/css/2.00ee7ccc.chunk.css.map",
-  "static/css/main.8bb62f59.chunk.css.map": "/ReactMovie/static/css/main.8bb62f59.chunk.css.map",
+  "static/css/main.caa5c512.chunk.css.map": "/ReactMovie/static/css/main.caa5c512.chunk.css.map",
+  "static/media/index.css": "/ReactMovie/static/media/sf-compact-display-thin-58646eb43a785.345e8aca.woff",
   "static/media/no-image.png": "/ReactMovie/static/media/no-image.810e687f.png",
   "static/media/no-profile-img.png": "/ReactMovie/static/media/no-profile-img.b6681619.png"
 }

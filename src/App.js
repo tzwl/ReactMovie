@@ -25,15 +25,15 @@ class App extends Component {
     showbutton: 'block',
     searchhome: this.searchChangeHandler.bind(this),
     }
-    console.log(API_KEY);
+    // console.log(API_KEY);
 
     const showPopularMovie = this.showPopularMovie(); 
 
   }
 
   showPopularMovie() {
-    // const showAllMovie = this.showAllMovie;
-    console.log("show popular movies");
+    
+    // console.log("show popular movies");
     const urlstr = PATH_BASE+PATH_MOVIE+PATH_POPULAR+"?api_key="+API_KEY+"&language=en-US";
 
     $.ajax({
@@ -48,7 +48,7 @@ class App extends Component {
 
           movie.poster_src = PATH_POSTER+"/w185" + movie.poster_path;     //for movie image
           movie.year = new Date(movie.release_date).getFullYear();
-          console.log(movie.id);                    //for movie year
+          // console.log(movie.id);                    //for movie year
 
           const movielist = <MovieRow key={movie.id} movie={movie} />               //add movie component
           popularList.push(movielist)
@@ -70,7 +70,7 @@ class App extends Component {
 
   showTopRatedMovie() {
     // const showAllMovie = this.showAllMovie;
-    console.log("show top rated movies");
+    // console.log("show top rated movies");
     const urlstr = PATH_BASE+PATH_MOVIE+PATH_TOP_RATED+"?api_key="+API_KEY+"&language=en-US";
 
     $.ajax({
@@ -106,7 +106,7 @@ class App extends Component {
 
   showUpcomingMovie() {
     // const showAllMovie = this.showAllMovie;
-    console.log("show upcoming movies");
+    // console.log("show upcoming movies");
     const urlstr = PATH_BASE+PATH_MOVIE+PATH_UPCOMING+"?api_key="+API_KEY+"&language=en-US";
 
     $.ajax({
@@ -142,7 +142,7 @@ class App extends Component {
 
   showNowPlayMovie() {
     // const showAllMovie = this.showAllMovie;
-    console.log("show nowplaying movies");
+    // console.log("show nowplaying movies");
     const urlstr = PATH_BASE+PATH_MOVIE+PATH_NOWPLAYING+"?api_key="+API_KEY+"&language=en-US";
 
     $.ajax({
@@ -183,7 +183,7 @@ class App extends Component {
     $.ajax({
       url: urlString,
       success: (searchResults) => {
-        console.log("Fetched data successfully")
+        // console.log("Fetched data successfully")
         // console.log(searchResults)
         const results = searchResults.results
         // console.log(results[0])
@@ -338,7 +338,7 @@ class App extends Component {
 
         
         <div className='searchbar' >
-          <FaSearch size={'1.2em'} style={{ color: ' #B9BFD1',background:'transparent' }} id='search'/>
+          <FaSearch style={{ color: ' #B9BFD1',background:'transparent' }} id='search'/>
           <input className="search" placeholder=" Search..." onChange={this.state.searchhome}/>
         </div>
         <br></br>

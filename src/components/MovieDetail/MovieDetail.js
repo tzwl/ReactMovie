@@ -126,8 +126,7 @@ class MovieDetail extends React.Component {
         const directors = []
         const writers = []
         const stories = []
-        const crewname = []
-        
+        const crewname = []        
 
         cast.forEach((value, index) => {
           if (index < 5) {
@@ -136,7 +135,6 @@ class MovieDetail extends React.Component {
               cover = PATH_POSTER+"/original" + value.profile_path;
               
             }
-
             // console.log(cover);
                         
             const card = <div className='card casts' key={value.id}>
@@ -344,31 +342,18 @@ class MovieDetail extends React.Component {
         // if the number is included in the array
         //update the state for isSaved
         
-        const watchlist = localStorage.getItem('watchlist');
-        const arr = JSON.parse(watchlist); 
-        console.log(watchlist);
+        let watchlist = localStorage.getItem('watchlist');
+        watchlist = JSON.parse(watchlist); 
+        
+        if(watchlist){
+          console.log(watchlist);
+          watchlist.forEach(value=>{
+            if(this.props.movieid === value.id){
+              this.setState({isSaved: true}); 
+            }
+          });
 
-        arr.forEach(value=>{
-          if(this.props.movieid === value.id){
-            this.setState({isSaved: true}); 
-          }
-        })
-        // if(!isNull(watchlist)){
-        //   const arr = JSON.parse(watchlist);        
-        //   const ind = arr.map(e => e["id"]).indexOf(this.props.movieid);
-        //   // console.log(ind);
-  
-        //   //show remove from watchlist
-        //   if(ind>=0){                    
-        //     this.setState({isSaved: true});          
-            
-        //   //show add to watchlist
-        //   }else{
-        //     this.setState({isSaved: false});
-            
-        //   }
-
-        // }
+        }
         
     }   
   

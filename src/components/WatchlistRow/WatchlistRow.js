@@ -63,7 +63,7 @@ class WatchlistRow extends React.Component {
 
   openModal (){
     this.setState({ open: true })
-    console.log("clicked.......");
+    // console.log("clicked.......");
   }
   closeModal () {
     this.setState({ open: false })
@@ -74,7 +74,7 @@ class WatchlistRow extends React.Component {
     const arr = JSON.parse(watchlist);
     const ind = arr
     .map(e => e["id"]).indexOf(this.props.movie.id);
-    console.log(ind)
+    // console.log(ind)
     const unique = arr
             .map(e => e["id"])
      

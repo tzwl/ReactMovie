@@ -1,15 +1,22 @@
+@font-face {
+  font-family: 'SF Compact Display Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF Compact Display Thin'), url('sf-compact-display-thin-58646eb43a785.woff') format('woff');
+  }
+@font-face {
+  font-family: 'SF Compact Regular Text';
+  src: local('SF Compact Regular Text'), url('SF-Compact-Text-Regular.otf') format('otf');
+  }
 body {
   margin: 0;
   padding: 0;
-    
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+      
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */

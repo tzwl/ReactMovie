@@ -404,8 +404,8 @@ class MovieDetail extends React.Component {
 
             <h5 id="title">{this.state.title}</h5>
 
-            <div className="heading">
-              <div id="userscore" style={{ width: '10%', display: 'inline-block' }}>
+            <div className="heading" >
+              <div id="userscore" style={{ marginRight:'2em', width: '10%', display: 'inline-block' }}>
                 <CircularProgressBar
                   percentage={this.state.score} />
 

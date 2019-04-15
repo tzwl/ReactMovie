@@ -32,4 +32,8 @@ Movie App Demo http://tzwl.github.io/ReactMovie
 ## Status
 Project is:  _finished_
 
+## Additional Note
+How to deploy react app to github pages 
+https://github.com/gitname/react-gh-pages/blob/master/README.md
+
 
